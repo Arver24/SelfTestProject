@@ -13,7 +13,7 @@ APlayer_Main::APlayer_Main()
 	//mesh=FindComponentByClass<UStaticMeshComponent>();
 	SetRootComponent(root);
 	//collider->SetupAttachment(root);
-	collider->SetRelativeScale3D(FVector(0.25));
+	collider->SetRelativeScale3D(FVector(0.8));
 }
 
 // Called when the game starts or when spawned
